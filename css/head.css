@@ -1,0 +1,102 @@
+html, body, div { 
+    margin: 0; 
+    border: 0 none; 
+    padding: 0; 
+}
+html, body {
+    height: 100%;
+}
+
+progress, canvas {
+    display: block;
+}
+
+#default_fileupload_widget {
+    display: none;
+}
+
+#editorarea {
+    padding : 0;
+    margin : 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    //background-color: yellow;
+}
+
+#canvaseditor_div {
+    padding: 0;
+    marging: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#canvaseditor {
+    padding: 0;
+    marging: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+#canvaseditor_clipper {
+    padding: 0;
+    marging: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+#savedialog {
+    display: none;
+    z-index: 50;
+}
+
+#fileselector {
+    position:absolute;
+    top:0;
+    right:0;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 1px;
+    z-index: 3;
+}
+img {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+#watcher {
+    height:auto;
+    width: auto;
+}
+.img_desc {
+    margin-top: 8px;
+}
+#info_widget {
+    position:absolute; 
+    right:0; 
+    top:0;
+    z-index:50;
+}
+
+.info_name {
+    width: 70%;
+}
+
+.img_desc {
+    clear: both;
+    width: 100%;
+}
+
+.img_info {
+    width: 100%;
+}

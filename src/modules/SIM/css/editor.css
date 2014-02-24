@@ -1,0 +1,27 @@
+.clipping-area-top {
+	cursor: s-resize;
+}
+.clipping-area-top-left {
+	cursor: se-resize;
+}
+.clipping-area-top-right {
+	cursor: sw-resize;
+}
+
+.clipping-area-bottom-left {
+	cursor: ne-resize;
+}
+.clipping-area-bottom-right {
+	cursor: nw-resize;
+}
+
+.clipping-area-left {
+	cursor: e-resize;
+}
+.clipping-area-right {
+	cursor: w-resize;
+}
+
+.clipping-area-move {
+	cursor: move;
+}
